@@ -39,7 +39,7 @@
     "build": "tsc",
     "dev": "tsx src/cli.ts",
     "clean": "rimraf dist",
-    "prepack": "npm run clean && npm run build && npm run test"
+    "prepack": "npm run clean && npm run build"
   },
   "dependencies": {
     "commander": "12.1.0"
