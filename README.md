@@ -45,9 +45,8 @@ rightmove listing 123456789 --include-raw
 
 ## Credits
 
+- **[property-shared](https://github.com/paulieb89/property-shared)** - paulieb89's all-in-one property MCP
 - **[commander](https://www.npmjs.com/package/commander)** — argument parsing for the CLI
-- **[tsx](https://www.npmjs.com/package/tsx)** / **[TypeScript](https://www.typescriptlang.org/)** — the build and dev toolchain
-- Node.js's built-in [`node:test`](https://nodejs.org/api/test.html) runner — tests without a framework
 
 ## Legal bits
 
