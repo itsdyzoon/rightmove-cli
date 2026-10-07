@@ -1,0 +1,1 @@
+export const joinTokens = (tokens: string[]) => tokens.join(" ").trim();

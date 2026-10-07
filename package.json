@@ -1,0 +1,53 @@
+{
+  "name": "rightmove-cli",
+  "version": "0.0.0",
+  "description": "Standalone CLI for scraping Rightmove search results and listing details.",
+  "type": "module",
+  "keywords": [
+    "rightmove",
+    "scraper",
+    "property",
+    "real-estate",
+    "cli"
+  ],
+  "author": {
+    "name": "Denis Zhmurenko",
+    "email": "hi@dyzoon.dev",
+    "url": "https://dyzoon.dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsdyzoon/rightmove-cli.git"
+  },
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/itsdyzoon/rightmove-cli#readme",
+  "bugs": "https://github.com/itsdyzoon/rightmove-cli/issues",
+  "bin": {
+    "rightmove": "dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "package.json",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/cli.ts",
+    "clean": "rimraf dist",
+    "prepack": "npm run clean && npm run build && npm run test"
+  },
+  "dependencies": {
+    "commander": "12.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "rimraf": "6.1.3",
+    "tsx": "4.23.15",
+    "typescript": "7.0.2"
+  }
+}
