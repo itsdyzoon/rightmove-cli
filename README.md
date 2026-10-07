@@ -13,8 +13,9 @@ npm install
 npm run build        # compiles src/ → dist/
 ```
 
-Run compiled: `node dist/cli.js …` (or `npm link` to get the `rightmove` command on PATH).
-Run from source without building: `npm run dev -- …` (tsx).
+**Run compiled:** `node dist/cli.js …` (or `npm link` to get the `rightmove` command on PATH).
+
+**Run from source without building:** `npm run dev -- …` (tsx).
 
 ## How to use
 
